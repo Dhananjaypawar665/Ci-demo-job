@@ -1,8 +1,5 @@
-{
-  "name": "ci-demo-job",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "echo Build completed successfully",
-    "test": "mkdir -p test-results && echo Test completed > test-results/result.txt"
-  }
+"scripts": {
+  "build": "echo Build completed successfully",
+  "test": "mkdir -p test-results && echo Test completed > test-results/result.txt",
+  "lint": "echo Lint completed successfully"
 }
